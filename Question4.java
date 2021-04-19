@@ -18,7 +18,7 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter number of rows:");
+    //System.out.print("Enter number of rows:");
     int i,j;
     int rows = in.nextInt();
 
