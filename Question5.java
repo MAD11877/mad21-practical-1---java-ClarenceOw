@@ -71,11 +71,9 @@ class Mode
     { 
 	
 	Scanner sc=new Scanner(System.in);
-	System.out.println("enter a number"); 
 	int n=sc.nextInt(),c;
 	int [] a=new int[n];
 	int [] b=new int[n];
-	System.out.println("enter "+n+" elements");
 	double sum=0;
 	for(int i=0;i<n;i++) 
 	{
@@ -112,7 +110,6 @@ class Mode
 		
 	}
         
-        System.out.println("mode:"); 
 	 for(int i=0;i<n;i++) 
 	{
 	    if(b[i]==m)
